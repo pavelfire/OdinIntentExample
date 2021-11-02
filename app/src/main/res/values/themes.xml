@@ -12,5 +12,32 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+        <item name="android:buttonStyle">@style/Theme.MyApp.Button</item>
     </style>
+
+
+    <style name="Theme.MyApp.Button" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorButtonNormal">@color/button_color</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/button_color</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+
+    <style name="ButtonStyle" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/button_color</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
 </resources>
