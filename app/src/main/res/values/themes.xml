@@ -13,31 +13,36 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
 
-        <item name="android:buttonStyle">@style/Theme.MyApp.Button</item>
+
+        <item name="materialButtonStyle">@style/Theme.AndroidSandBox.Button</item>
+
+
     </style>
 
 
-    <style name="Theme.MyApp.Button" parent="Theme.MaterialComponents.Light.NoActionBar">
-        <item name="colorButtonNormal">@color/button_color</item>
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:textColor">@color/black</item>
-        <item name="android:textSize">15sp</item>
-        <item name="android:padding">10dp</item>
+
+    <style name="Theme.AndroidSandBox.NewCustomStyle" parent="Theme.OdinIntentExample">
+        <item name="android:textViewStyle">@style/Theme.AndroidSandBox.TextView</item>
+
+    </style>
+
+    <style name="Theme.AndroidSandBox.TextView" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/button_text_color</item>
+    </style>
+
+    <style name="Theme.AndroidSandBox.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/button_text_color</item>
+        <item name="backgroundTint">@color/button_color</item>
+    </style>
+
+    <style name="Theme.AndroidSandBox.Button.Strong" parent="Theme.AndroidSandBox.Button">
         <item name="android:textStyle">bold</item>
-        <item name="android:background">@color/button_color</item>
-        <item name="android:gravity">center</item>
-
     </style>
 
-    <style name="ButtonStyle" parent="@android:style/Widget.Button">
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:textColor">@color/black</item>
-        <item name="android:textSize">15sp</item>
-        <item name="android:padding">10dp</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:background">@color/button_color</item>
-        <item name="android:gravity">center</item>
-    </style>
+
+
 
 
 </resources>

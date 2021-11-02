@@ -10,15 +10,15 @@
         android:id="@+id/tv1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:text="Hello World! How it is going?"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.120000005" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/bt1"
+        style="@style/Theme.AndroidSandBox.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -42,6 +42,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Создать аккаунт"
+        app:cornerRadius="40dp"
         app:layout_constraintStart_toStartOf="@+id/bt2"
         app:layout_constraintTop_toBottomOf="@+id/bt2" />
 
@@ -50,21 +51,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:background="@drawable/button_style_drawable"
         android:text="bt 4"
         app:layout_constraintStart_toStartOf="@+id/bt3"
         app:layout_constraintTop_toBottomOf="@+id/bt3" />
 
     <Button
+
         android:id="@+id/bt5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:background="@drawable/button_drawable"
         android:text="YouTube"
+        app:backgroundTint="@color/button_youtube"
         app:layout_constraintStart_toStartOf="@+id/bt4"
         app:layout_constraintTop_toBottomOf="@+id/bt4" />
 
     <Button
         android:id="@+id/bt6"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -74,11 +80,31 @@
 
     <Button
         android:id="@+id/bt7"
+        style="@style/Theme.AndroidSandBox.Button.Strong"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="Поделиться"
         app:layout_constraintStart_toStartOf="@+id/bt6"
         app:layout_constraintTop_toBottomOf="@+id/bt6" />
+
+    <Button
+        android:id="@+id/bt8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Show snackbar"
+        app:layout_constraintStart_toStartOf="@+id/bt7"
+        app:layout_constraintTop_toBottomOf="@+id/bt7" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bt8"
+        app:layout_constraintStart_toEndOf="@+id/bt8"
+        app:layout_constraintTop_toTopOf="@+id/bt8" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

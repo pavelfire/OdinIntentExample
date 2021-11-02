@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/OdinIntentExample/app/src/main/res/drawable/button_drawable.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/OdinIntentExample/app/src/main/res/drawable/button_style_drawable.xml" value="0.38385416666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/OdinIntentExample/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/User/AndroidStudioProjects/OdinIntentExample/app/src/main/res/layout/activity_second.xml" value="0.2957427536231884" />
       </map>

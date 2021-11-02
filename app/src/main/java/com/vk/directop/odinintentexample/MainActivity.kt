@@ -5,10 +5,12 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.Settings
+import android.view.View
 import android.widget.Button
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContract
 import androidx.activity.result.contract.ActivityResultContracts
+import com.google.android.material.snackbar.Snackbar
 
 private const val KEY_ONE = "HELLO_KEY"
 
@@ -24,6 +26,7 @@ class MainActivity : AppCompatActivity() {
         val bt5 = findViewById<Button>(R.id.bt5)
         val bt6 = findViewById<Button>(R.id.bt6)
         val bt7 = findViewById<Button>(R.id.bt7)
+        val bt8 = findViewById<Button>(R.id.bt8)
 
         val intent1 = Intent(this, SecondActivity::class.java)
         intent1.putExtra(KEY_ONE, "Hello from Main Activity!")
@@ -67,7 +70,7 @@ class MainActivity : AppCompatActivity() {
             resultLauncher.launch(intent4)
         }
         bt5.setOnClickListener {
-            val youTubelink = Uri.parse("vnd.youtube://c5ca4DFeLqE")
+            val youTubelink = Uri.parse("vnd.youtube://CmZfbkv9YlQ")
             val intent = Intent(Intent.ACTION_VIEW, youTubelink)
             startActivity(intent)
         }
@@ -87,6 +90,17 @@ class MainActivity : AppCompatActivity() {
             startActivity(chooser)
         }
 
+        bt8.setOnClickListener{
+            showSnackBar(it)  // it в данном выражении это bt8
+        }
 
+
+    }
+
+    private fun showSnackBar(view: View) {
+        Snackbar.make(this, view, "Snackbar showed", Snackbar.LENGTH_INDEFINITE)
+            .setAction("Action"){
+                Toast.makeText(this, "Toast from snackbar", Toast.LENGTH_LONG).show()
+            }.show()
     }
 }
