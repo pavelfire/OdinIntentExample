@@ -31,7 +31,6 @@
         android:id="@+id/bt2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:text="Открываем Яндекс"
         app:layout_constraintStart_toStartOf="@+id/bt1"
         app:layout_constraintTop_toBottomOf="@+id/bt1" />
@@ -40,7 +39,6 @@
         android:id="@+id/bt3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:text="Создать аккаунт"
         app:cornerRadius="40dp"
         app:layout_constraintStart_toStartOf="@+id/bt2"
@@ -50,7 +48,6 @@
         android:id="@+id/bt4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:background="@drawable/button_style_drawable"
         android:text="bt 4"
         app:layout_constraintStart_toStartOf="@+id/bt3"
@@ -61,7 +58,6 @@
         android:id="@+id/bt5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:background="@drawable/button_drawable"
         android:text="YouTube"
         app:backgroundTint="@color/button_youtube"
@@ -70,10 +66,8 @@
 
     <Button
         android:id="@+id/bt6"
-
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:text="bt 6"
         app:layout_constraintStart_toStartOf="@+id/bt5"
         app:layout_constraintTop_toBottomOf="@+id/bt5" />
@@ -83,7 +77,6 @@
         style="@style/Theme.AndroidSandBox.Button.Strong"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:text="Поделиться"
         app:layout_constraintStart_toStartOf="@+id/bt6"
         app:layout_constraintTop_toBottomOf="@+id/bt6" />
@@ -92,7 +85,6 @@
         android:id="@+id/bt8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:text="Show snackbar"
         app:layout_constraintStart_toStartOf="@+id/bt7"
         app:layout_constraintTop_toBottomOf="@+id/bt7" />
@@ -106,5 +98,21 @@
         app:layout_constraintBottom_toBottomOf="@+id/bt8"
         app:layout_constraintStart_toEndOf="@+id/bt8"
         app:layout_constraintTop_toTopOf="@+id/bt8" />
+
+    <Button
+        android:id="@+id/bt9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Material СРС 7"
+        app:layout_constraintStart_toStartOf="@+id/bt8"
+        app:layout_constraintTop_toBottomOf="@+id/bt8" />
+
+    <Button
+        android:id="@+id/bt10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="@+id/bt9"
+        app:layout_constraintTop_toBottomOf="@+id/bt9" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

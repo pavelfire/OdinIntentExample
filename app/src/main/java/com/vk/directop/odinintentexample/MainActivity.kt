@@ -27,6 +27,8 @@ class MainActivity : AppCompatActivity() {
         val bt6 = findViewById<Button>(R.id.bt6)
         val bt7 = findViewById<Button>(R.id.bt7)
         val bt8 = findViewById<Button>(R.id.bt8)
+        val bt9 = findViewById<Button>(R.id.bt9)
+        val bt10 = findViewById<Button>(R.id.bt10)
 
         val intent1 = Intent(this, SecondActivity::class.java)
         intent1.putExtra(KEY_ONE, "Hello from Main Activity!")
@@ -51,7 +53,6 @@ class MainActivity : AppCompatActivity() {
 
             startActivity(intent)
         }
-
 
         //находим файл и возвращаем результат
         val intent4 = Intent(Intent.ACTION_GET_CONTENT)
@@ -92,6 +93,12 @@ class MainActivity : AppCompatActivity() {
 
         bt8.setOnClickListener{
             showSnackBar(it)  // it в данном выражении это bt8
+        }
+
+        bt9.setOnClickListener {
+            val intent1 = Intent(this, MaterialActivity::class.java)
+            intent1.putExtra(KEY_ONE, "Hello from Main Activity!")
+            startActivity(intent1)
         }
 
 

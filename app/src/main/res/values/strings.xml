@@ -1,4 +1,23 @@
 <resources>
     <string name="app_name">OdinIntentExample</string>
     <string name="share">Скачай это супер приложение для своих пожилых родственников https://play.google.com/store/apps/details?id=com.vk.directop.tonometerreport&amp;hl=ru&amp;gl=US</string>
+    <string name="content_description_search">Serch elements</string>
+    <string name="content_description_favorite">Favorite here</string>
+    <string name="content_description_more">Last night a little angel...</string>
+    <string name="more">More</string>
+    <string name="search">Search</string>
+    <string name="favorite">Favorite</string>
+    <string name="page_title">Material Design</string>
+    <string name="save">save to disk</string>
+    <string name="upload">upload from disk</string>
+    <string name="about">about</string>
+    <string name="delete_all">delete all</string>
+    <string name="fab_content_desc">Add something</string>
+    <string name="cart">add to cart</string>
+    <string name="buy">buy</string>
+    <string name="title">Рулевой наконечник</string>
+    <string name="secondary_text">Данные детали применяются практически во всех современных автомобиля. Деталь можно считать важной для безопасность, в случае неисправности может привести к трагическим последствиям.</string>
+    <string name="supporting_text">Покупайте оригинальные запчасти. И помните скупой платит дважды.</string>
+    <string name="content_description_media">рулевой наконечник</string>
+    <string name="rulevaya_tyaga">Рулевая тяга</string>
 </resources>
