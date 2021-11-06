@@ -100,6 +100,11 @@ class MainActivity : AppCompatActivity() {
             intent1.putExtra(KEY_ONE, "Hello from Main Activity!")
             startActivity(intent1)
         }
+        bt10.setOnClickListener {
+            val intent1 = Intent(this, RecyclerViewActivity::class.java)
+            intent1.putExtra(KEY_ONE, "Hello from Main Activity!")
+            startActivity(intent1)
+        }
 
 
     }

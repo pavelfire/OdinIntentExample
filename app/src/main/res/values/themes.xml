@@ -17,9 +17,7 @@
         <item name="materialButtonStyle">@style/Theme.AndroidSandBox.Button</item>
 
 
-
     </style>
-
 
 
     <style name="Theme.AndroidSandBox.NewCustomStyle" parent="Theme.OdinIntentExample">
@@ -43,6 +41,14 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+    <style name="Theme.GreatUnique" parent="Theme.OdinIntentExample">
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_margin">14dp</item>
+        <item name="android:padding">14dp</item>
+        <item name="android:textColor">@color/great_theme</item>
+        <item name="backgroundTint">#C15FA5</item>
+
+    </style>
 
 
 
