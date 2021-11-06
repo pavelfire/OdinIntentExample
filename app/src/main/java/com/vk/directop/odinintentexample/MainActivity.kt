@@ -11,6 +11,7 @@ import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContract
 import androidx.activity.result.contract.ActivityResultContracts
 import com.google.android.material.snackbar.Snackbar
+import com.vk.directop.odinintentexample.city.CityActivity
 
 private const val KEY_ONE = "HELLO_KEY"
 
@@ -29,6 +30,7 @@ class MainActivity : AppCompatActivity() {
         val bt8 = findViewById<Button>(R.id.bt8)
         val bt9 = findViewById<Button>(R.id.bt9)
         val bt10 = findViewById<Button>(R.id.bt10)
+        val bt11 = findViewById<Button>(R.id.bt11)
 
         val intent1 = Intent(this, SecondActivity::class.java)
         intent1.putExtra(KEY_ONE, "Hello from Main Activity!")
@@ -102,6 +104,11 @@ class MainActivity : AppCompatActivity() {
         }
         bt10.setOnClickListener {
             val intent1 = Intent(this, RecyclerViewActivity::class.java)
+            intent1.putExtra(KEY_ONE, "Hello from Main Activity!")
+            startActivity(intent1)
+        }
+        bt11.setOnClickListener {
+            val intent1 = Intent(this, CityActivity::class.java)
             intent1.putExtra(KEY_ONE, "Hello from Main Activity!")
             startActivity(intent1)
         }

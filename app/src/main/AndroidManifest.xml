@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OdinIntentExample">
         <activity
+            android:name=".city.CityActivity"
+            android:exported="false" />
+        <activity
             android:name=".RecyclerViewActivity"
             android:exported="false" />
         <activity
