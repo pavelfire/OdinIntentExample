@@ -14,4 +14,6 @@
     <color name="button_youtube">#D52121</color>
     <color name="great_theme">#84359A</color>
 
+    <color name="toast_color">#76A87E</color>
+
 </resources>
