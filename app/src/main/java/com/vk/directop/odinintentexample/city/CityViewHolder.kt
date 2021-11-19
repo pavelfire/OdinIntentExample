@@ -28,6 +28,9 @@ class CityViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
                 Toast.LENGTH_LONG).show()
 
             Log.d("MyTag", "Pressed ${name}")
+
+
+            //itemView.context.startActivity(intent)
         }
     }
 }
