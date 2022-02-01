@@ -1,10 +1,11 @@
-package com.vk.directop.odinintentexample
+package com.vk.directop.odinintentexample.user_recycler_view
 
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
+import com.vk.directop.odinintentexample.R
 
 
 class UserViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {

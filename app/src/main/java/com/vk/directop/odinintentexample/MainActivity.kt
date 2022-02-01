@@ -8,10 +8,11 @@ import android.provider.Settings
 import android.view.View
 import android.widget.Button
 import android.widget.Toast
-import androidx.activity.result.contract.ActivityResultContract
 import androidx.activity.result.contract.ActivityResultContracts
 import com.google.android.material.snackbar.Snackbar
+import com.vk.directop.odinintentexample.car_recycler.RecyclerViewActivity
 import com.vk.directop.odinintentexample.city.CityActivity
+import com.vk.directop.odinintentexample.user_recycler_view.UserRecyclerActivity
 
 private const val KEY_ONE = "HELLO_KEY"
 
@@ -31,6 +32,7 @@ class MainActivity : AppCompatActivity() {
         val bt9 = findViewById<Button>(R.id.bt9)
         val bt10 = findViewById<Button>(R.id.bt10)
         val bt11 = findViewById<Button>(R.id.bt11)
+        val bt12 = findViewById<Button>(R.id.bt12)
 
         val intent1 = Intent(this, SecondActivity::class.java)
         intent1.putExtra(KEY_ONE, "Hello from Main Activity!")
@@ -109,6 +111,11 @@ class MainActivity : AppCompatActivity() {
         }
         bt11.setOnClickListener {
             val intent1 = Intent(this, CityActivity::class.java)
+            intent1.putExtra(KEY_ONE, "Hello from Main Activity!")
+            startActivity(intent1)
+        }
+        bt12.setOnClickListener {
+            val intent1 = Intent(this, UserRecyclerActivity::class.java)
             intent1.putExtra(KEY_ONE, "Hello from Main Activity!")
             startActivity(intent1)
         }

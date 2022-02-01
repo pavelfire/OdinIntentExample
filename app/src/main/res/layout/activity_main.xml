@@ -112,7 +112,7 @@
         android:id="@+id/bt10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Recycler View"
+        android:text="Recycler View Cars"
         app:layout_constraintStart_toStartOf="@+id/bt9"
         app:layout_constraintTop_toBottomOf="@+id/bt9" />
 
@@ -123,5 +123,13 @@
         android:text="Список городов"
         app:layout_constraintStart_toStartOf="@+id/bt10"
         app:layout_constraintTop_toBottomOf="@+id/bt10" />
+
+    <Button
+        android:id="@+id/bt12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User RecyclerView"
+        app:layout_constraintStart_toStartOf="@+id/bt11"
+        app:layout_constraintTop_toBottomOf="@+id/bt11" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

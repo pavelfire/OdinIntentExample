@@ -1,8 +1,9 @@
-package com.vk.directop.odinintentexample
+package com.vk.directop.odinintentexample.car_recycler
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.vk.directop.odinintentexample.R
 
 class CarAdapter(private val carList: List<Car>) : RecyclerView.Adapter<CarViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CarViewHolder {

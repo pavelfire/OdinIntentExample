@@ -39,6 +39,7 @@
 
     <style name="Theme.AndroidSandBox.Button.Strong" parent="Theme.AndroidSandBox.Button">
         <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/font_another</item>
     </style>
 
     <style name="Theme.GreatUnique" parent="Theme.OdinIntentExample">

@@ -1,8 +1,9 @@
-package com.vk.directop.odinintentexample
+package com.vk.directop.odinintentexample.user_recycler_view
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.vk.directop.odinintentexample.R
 
 class UserAdapter(private val userNameList: List<String>) : RecyclerView.Adapter<UserViewHolder>() {
 

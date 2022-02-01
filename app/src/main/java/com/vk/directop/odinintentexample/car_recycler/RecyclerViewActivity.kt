@@ -1,10 +1,11 @@
-package com.vk.directop.odinintentexample
+package com.vk.directop.odinintentexample.car_recycler
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.vk.directop.odinintentexample.R
 
 class RecyclerViewActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

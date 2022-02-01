@@ -13,7 +13,10 @@
             android:name=".city.CityActivity"
             android:exported="false" />
         <activity
-            android:name=".RecyclerViewActivity"
+            android:name=".car_recycler.RecyclerViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user_recycler_view.UserRecyclerActivity"
             android:exported="false" />
         <activity
             android:name=".MaterialActivity"

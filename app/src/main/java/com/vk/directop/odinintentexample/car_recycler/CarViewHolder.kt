@@ -1,8 +1,9 @@
-package com.vk.directop.odinintentexample
+package com.vk.directop.odinintentexample.car_recycler
 
 import android.view.View
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.vk.directop.odinintentexample.R
 
 class CarViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
